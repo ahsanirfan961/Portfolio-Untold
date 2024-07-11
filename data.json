@@ -1,0 +1,183 @@
+{
+    "name": "Muhammad Ahsan",
+    "position_statement": "Android & Flutter Developer",
+    "quote": "'Eight percent of succes is showing up'",
+    "front_page_description": "a passionate student, studying Software Enginnering from National University of Science & Technology, Pakistan<hr>With a diverse skill set in web and app development, 3D modeling, and game development. My projects reflect my dedication to creating innovative and user-friendly solutions<hr>I strive to push the boundaries of technology and deliver high-quality digital experiences",
+    "mobile": "+92-349-6785199",
+    "email": "ahsanirfan961@gmail.com",
+    "address": "NUST, H-12 Islamabad, Pakistan",
+    "facebook": "https://www.facebook.com/m.ahsan.irfan.961",
+    "instagram": "https://www.instagram.com/ahsan_961/",
+    "linkedin": "https://www.linkedin.com/in/muhammad-ahsan-b6796124b/",
+    "github": "https://github.com/ahsanirfan961",
+    "achievements": [
+        {
+            "logo": "fa-solid fa-book",
+            "heading": "26 projects",
+            "sub_heading": "Total Projects"
+        },
+        {
+            "logo": "fa-regular fa-user",
+            "heading": "9 months",
+            "sub_heading": "Work Experience"
+        },
+        {
+            "logo": "fa-solid fa-users",
+            "heading": "3 Volunteers",
+            "sub_heading": "Total Volunteerships"
+        }
+    ],
+    "skills": [
+        {
+            "name": "Flutter",
+            "percentage": "70"
+        },
+        {
+            "name": "Android App Development",
+            "percentage": "65"
+        },
+        {
+            "name": "Web Development",
+            "percentage": "40"
+        },
+        {
+            "name": "C/C++, Python Coding",
+            "percentage": "85"
+        },
+        {
+            "name": "Database Development & Handling",
+            "percentage": "75"
+        },
+        {
+            "name": "Communication Skills",
+            "percentage": "80"
+        }
+    ],
+    "experience": [
+        {
+            "logo_path": "assets/img/dg-cement.png",
+            "from": "June 2023",
+            "to": "July 2023",
+            "organization": "D.G Cement Company Ltd",
+            "position": "Information techonology intern",
+            "mode": "Onsite",
+            "location": "Dera Ghazi Khan, Pakistan"
+        },
+        {
+            "logo_path": "assets/img/hackclub.png",
+            "from": "Sep 2023",
+            "to": "June 2024",
+            "organization": "Hack Club NUST",
+            "position": "Deputy Director Social Media Marketing",
+            "mode": "Onsite",
+            "location": "National University of Science & Technology, Islamabad, Pakistan"
+        },
+        {
+            "logo_path": "assets/img/mindstorm_studios_logo.jpg",
+            "from": "June 2024",
+            "to": "present",
+            "organization": "M- Labs, Mindstorm Studios",
+            "position": "Game Programmer Intern",
+            "mode": "Hybrid Remote & Onsite",
+            "location": "Lahore, Pakistan"
+        },
+        {
+            "logo_path": "assets/img/mach-vis.png",
+            "from": "June 2024",
+            "to": "present",
+            "organization": "Mach Vis Lab, NUST",
+            "position": "Deep Learning Intern",
+            "mode": "Hybrid Remote & Onsite",
+            "location": "National University of Science & Technology, Islamabad, Pakistan"
+        }
+    ],
+    "education": [
+        {
+            "from": "2018",
+            "to": "2020",
+            "organization": "Beaconhouse School System",
+            "position": "Matriculation with 95% marks"
+        },
+        {
+            "from": "2020",
+            "to": "2022",
+            "organization": "KIPS College",
+            "position": "F.Sc Pre-engineering with 97% marks\n1st position in DG Khan Board"
+        },
+        {
+            "from": "2022",
+            "to": "present\nexpected graduation 2026",
+            "organization": "National University of Science & Technology, Islamabad",
+            "position": "Software Engineering"
+        }
+    ],
+    "services": [
+        {
+            "logo_path": "assets/img/flutter-logo.png",
+            "title": "Flutter Development",
+            "description": "I specialize in creating high-performance, cross-platform applications using Flutter. My expertise includes building dynamic user interfaces, integrating APIs, and optimizing performance for a seamless user experience on both iOS and Android"
+        },
+        {
+            "logo_path": "assets/img/android-logo.png",
+            "title": "Android Development",
+            "description": "I have experience in developing native Android applications using Java and Kotlin. I am proficient in creating user-friendly interfaces, integrating APIs, and ensuring high performance and responsiveness of applications"
+        },
+        {
+            "logo_path": "assets/img/web-logo.png",
+            "title": "Web Development",
+            "description": "I have a strong foundation in web development, including HTML, CSS, and JavaScript. I can create responsive and interactive websites that meet the needs of clients and users"
+        },
+        {
+            "logo_path": "assets/img/qt-logo.png",
+            "title": "Desktop Development\nwith Qt in Python",
+            "description": "I have experience in developing desktop applications using Qt and Python. I can create custom GUIs, integrate APIs, and optimize performance for a seamless user experience"
+        },
+        {
+            "logo_path": "assets/img/shopify-logo.png",
+            "title": "Store Development and Management",
+            "description": "I can create and manage a Shopify store for your business. By integrating pixel, google analytics, and other tools, I can help you track and analyze customer behavior, optimize your store for conversions, and grow your business online"
+        },
+        {
+            "logo_path": "assets/img/meta-logo.png",
+            "title": "Meta Ads Campaigns",
+            "description": "I can create or manage quality meta, instagram and facebook ads campaigns. By targeting the right audience, optimizing ad creatives, and analyzing campaign performance, I can help you reach your business goals and grow your online presence"
+        }
+    ],
+    "projects": [
+        {
+            "name": "Metro Route Finder Islamabad",
+            "description": "",
+            "image_path": "assets/img/metro-app.jpg",
+            "tools": "Flutter, Google Maps API",
+            "url": ""
+        },
+        {
+            "name": "DG Bank Mobile App",
+            "description": "",
+            "image_path": "assets/img/bms-app.jpg",
+            "tools": "Android SDK, Java, Postgre SQL",
+            "url": ""
+        },
+        {
+            "name": "Brave Dave",
+            "description": "",
+            "image_path": "assets/img/dave-game-2.png",
+            "tools": "SFML, C++",
+            "url": ""
+        },
+        {
+            "name": "DG Bank Desktop App",
+            "description": "",
+            "image_path": "assets/img/dg-app.png",
+            "tools": "Pyqt5, Postgre SQL",
+            "url": ""
+        },
+        {
+            "name": "Autonomous System Routing",
+            "description": "",
+            "image_path": "assets/img/ns3.png",
+            "tools": "Ubuntu, NS-3, C++",
+            "url": ""
+        }
+    ]
+}
