@@ -14,7 +14,7 @@ function addListenersAll() {
 
     $('#about-btn').on('click', () => {
         $('#offcanvasNavbar').offcanvas('hide');
-        $('.offcanvas-backdrop').addClass('d-none');
+        $('.offcanvas-backdrop').remove();
         setTimeout(() => {
             $('#about-section')[0].scrollIntoView({ behavior: 'smooth' });
         }, 300);
@@ -34,7 +34,6 @@ function toggleNavBar(state) {
     } else {
         $('.nav-link').removeClass('text-white');
     }
-    $('.offcanvas-backdrop').addClass('d-block');
 }
 
 function addRevealElementsListener() {
