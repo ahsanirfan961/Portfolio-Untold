@@ -13,19 +13,41 @@ function addListenersAll() {
     $(window).on('scroll', addRevealElementsListener);
 
     $('#about-btn').on('click', () => {
-        $('#offcanvasNavbar').offcanvas('hide');
-        $('.offcanvas-backdrop').remove();
+        $('#close-offcanvas-btn').click();
         setTimeout(() => {
             $('#about-section')[0].scrollIntoView({ behavior: 'smooth' });
         }, 300);
     });
-    // $('#about-btn').on('click', () => {
-    //     $('#offcanvasNavbar').offcanvas('hide').on('hidden.bs.offcanvas', () => {
-    //         $('#about-section')[0].scrollIntoView({behavior: 'smooth'});
-    //         // Remove the event listener to prevent it from firing multiple times
-    //         $('#offcanvasNavbar').off('hidden.bs.offcanvas');
-    //     });
-    // })
+    $('#services-btn').on('click', () => {
+        $('#close-offcanvas-btn').click();
+        setTimeout(() => {
+            $('#services-section-top')[0].scrollIntoView({ behavior: 'smooth' });
+        }, 300);
+    });
+    $('#skills-btn').on('click', () => {
+        $('#close-offcanvas-btn').click();
+        setTimeout(() => {
+            $('#skill-section-top')[0].scrollIntoView({ behavior: 'smooth' });
+        }, 300);
+    });
+    $('#experience-btn').on('click', () => {
+        $('#close-offcanvas-btn').click();
+        setTimeout(() => {
+            $('#experience-section-top')[0].scrollIntoView({ behavior: 'smooth' });
+        }, 300);
+    });
+    $('#projects-btn').on('click', () => {
+        $('#close-offcanvas-btn').click();
+        setTimeout(() => {
+            $('#project-section-top')[0].scrollIntoView({ behavior: 'smooth' });
+        }, 300);
+    });
+    $('#contact-btn').on('click', () => {
+        $('#close-offcanvas-btn').click();
+        setTimeout(() => {
+            $('#contact-section')[0].scrollIntoView({ behavior: 'smooth' });
+        }, 300);
+    });
 }
 
 function toggleNavBar(state) {
