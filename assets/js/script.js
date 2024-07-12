@@ -11,6 +11,21 @@ function addListenersAll() {
     vh *= 0.9;
     $('#top-bg-img')[0].style.height = vh + 'px';
     $(window).on('scroll', addRevealElementsListener);
+
+    $('#about-btn').on('click', () => {
+        $('#offcanvasNavbar').offcanvas('hide');
+        $('.offcanvas-backdrop').addClass('d-none');
+        setTimeout(() => {
+            $('#about-section')[0].scrollIntoView({ behavior: 'smooth' });
+        }, 300);
+    });
+    // $('#about-btn').on('click', () => {
+    //     $('#offcanvasNavbar').offcanvas('hide').on('hidden.bs.offcanvas', () => {
+    //         $('#about-section')[0].scrollIntoView({behavior: 'smooth'});
+    //         // Remove the event listener to prevent it from firing multiple times
+    //         $('#offcanvasNavbar').off('hidden.bs.offcanvas');
+    //     });
+    // })
 }
 
 function toggleNavBar(state) {
@@ -19,6 +34,7 @@ function toggleNavBar(state) {
     } else {
         $('.nav-link').removeClass('text-white');
     }
+    $('.offcanvas-backdrop').addClass('d-block');
 }
 
 function addRevealElementsListener() {
@@ -55,7 +71,6 @@ function loadData() {
         services_section = $('#services-section');
         template = $('.service');
         services_section.empty();
-        console.log(template.html());
         data.services.forEach(service => {
             let serviceElement = template.clone();
             serviceElement.find('.service-logo').attr('src', service.logo_path);
@@ -116,7 +131,7 @@ function loadData() {
         mobile_2 = data.mobile_2.replace('+', '').replace(/-/g, '');
         $('#phone-1').on('click', () => window.open(`tel:${mobile}`, '_blank'));
         $('#phone-2').on('click', () => window.open(`tel:${mobile_2}`, '_blank'));
-        $('#whatsapp-btn').on('click', () =>{
+        $('#whatsapp-btn').on('click', () => {
             window.open(`https://wa.me/${mobile}`, '_blank');
         });
         $('#linkedin-btn').on('click', () => window.open(data.linkedin, '_blank'));

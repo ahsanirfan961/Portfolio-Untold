@@ -36,13 +36,13 @@
                     <div class="offcanvas-body align-items-center justify-content-lg-center p-3" id="nav-body">
                         <div class="navbar-nav"><a class="nav-link text-white active" aria-current="page" href="#">Home
                                 <div class="underline"></div>
-                            </a><a class="nav-link text-white" href="#">About <div class="underline"></div></a><a
-                                class="nav-link text-white" href="#">Experience <div class="underline"></div></a></div>
+                            </a><a class="nav-link text-white" href="#" id="about-btn">About <div class="underline"></div></a><a
+                                class="nav-link text-white" href="#" id="experience-btn">Experience <div class="underline"></div></a></div>
                         <a class="navbar-brand fs-4 fw-bold d-none d-lg-block mx-auto ms-5 me-5 text-white"
                             href="">Portfolio</a>
-                        <div class="navbar-nav"><a class="nav-link text-white" href="#">Services<div class="underline">
-                                </div></a><a class="nav-link text-white" href="#">Skills<div class="underline"></div>
-                            </a><a class="nav-link text-white" href="#">Contact<div class="underline"></div></a>
+                        <div class="navbar-nav"><a class="nav-link text-white" href="#" id="services-btn">Services<div class="underline">
+                                </div></a><a class="nav-link text-white" href="#" id="skills-btn">Skills<div class="underline"></div>
+                            </a><a class="nav-link text-white" href="#" id="contact-btn">Contact<div class="underline"></div></a>
                         </div>
                     </div>
                 </div><button class="navbar-toggler" data-bs-toggle="offcanvas" type="button"
@@ -59,7 +59,7 @@
         </div>
     </header>
     <div class="container-fluid bg-black d-flex flex-column align-items-center p-5 w-100" id="contents">
-        <h2 class="fw-bold"><span class="d-flex flex-column align-items-center reveal-wrap"><span class="cover"
+        <h2 class="fw-bold" id="about-section"><span class="d-flex flex-column align-items-center reveal-wrap"><span class="cover"
                     style="background-color:black;"></span><span class="d-block content">About Me</span><img
                     src="assets/img/divider.png" alt="" width="76px" class="content mt-3"></span></h2>
         <div class="row flex-wrap">
@@ -243,20 +243,20 @@
                     style="background-color:black;"></span><span class="d-block content">Get In Touch</span><img
                     src="assets/img/divider.png" alt="" width="76px" class="content mt-3"></span></h2>
         <div class="row w-100 mt-md-5" id="contact-section">
-            <div class="col-12 col-md-6">
+            <form class="col-12 col-md-6" action="https://formspree.io/f/xyzgzejo" method="POST">
                 <div class="row">
-                    <div class="col-12 col-md-6"><input type="text" class="w-100 p-2" placeholder="Name"></div>
-                    <div class="col-12 col-md-6"><input type="email" class="w-100 p-2" placeholder="Email"></div>
+                    <div class="col-12 col-md-6"><input type="text" class="w-100 p-2" placeholder="Name" name="Name"></div>
+                    <div class="col-12 col-md-6"><input type="email" class="w-100 p-2" placeholder="Email" name="Email"></div>
                 </div>
                 <div class="row">
                     <div class="col"><textarea class="h-100 bg-transparent my-3 text-white w-100 p-2"
-                            placeholder="Write your message..."></textarea></div>
+                            placeholder="Write your message..." name="Message"></textarea></div>
                 </div>
                 <div class="row mt-5">
                     <div class="col"><button class="btn btn-light px-3 fw-bold" id="message-btn" type="submit">Send
                             Message</button></div>
                 </div>
-            </div>
+            </form>
             <div class="col-12 col-md-6 ps-md-5">
                 <div class="my-3">
                     <h6 class="text-white-50"><strong>Email</strong></h6>
