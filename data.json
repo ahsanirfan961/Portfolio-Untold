@@ -4,6 +4,7 @@
     "quote": "'Eight percent of succes is showing up'",
     "front_page_description": "a passionate student, studying Software Enginnering from National University of Science & Technology, Pakistan<hr>With a diverse skill set in web and app development, 3D modeling, and game development. My projects reflect my dedication to creating innovative and user-friendly solutions<hr>I strive to push the boundaries of technology and deliver high-quality digital experiences",
     "mobile": "+92-349-6785199",
+    "mobile_2": "+92-326-1785199",
     "email": "ahsanirfan961@gmail.com",
     "address": "NUST, H-12 Islamabad, Pakistan",
     "facebook": "https://www.facebook.com/m.ahsan.irfan.961",
@@ -145,39 +146,52 @@
     ],
     "projects": [
         {
-            "name": "Metro Route Finder Islamabad",
-            "description": "",
+            "title": "Metro Route Finder Islamabad",
+            "description": "a state of the art Metro Bus Route Navigator application for Islamabad, Pakistan",
             "image_path": "assets/img/metro-app.jpg",
             "tools": "Flutter, Google Maps API",
-            "url": ""
+            "url": "",
+            "date": "March 2024"
         },
         {
-            "name": "DG Bank Mobile App",
-            "description": "",
+            "title": "DG Bank Mobile App",
+            "description": "a versatile Bank Management System capable of managing thousands of accounts, handling debit cards, making transactions & generating statements",
             "image_path": "assets/img/bms-app.jpg",
             "tools": "Android SDK, Java, Postgre SQL",
-            "url": ""
+            "url": "https://github.com/ahsanirfan961/Bank-Management-System-Android",
+            "date": "Novermber 2023"
         },
         {
-            "name": "Brave Dave",
-            "description": "",
+            "title": "Brave Dave",
+            "description": "a 2d side scrolling platformer game inspired from the legendary Mario Bros",
             "image_path": "assets/img/dave-game-2.png",
             "tools": "SFML, C++",
-            "url": ""
+            "url": "https://github.com/ahsanirfan961/Brave-Dave-Video-Game-in-C-",
+            "date": "June 2023"
         },
         {
-            "name": "DG Bank Desktop App",
-            "description": "",
+            "title": "DG Bank Desktop App",
+            "description": "the desktop version of the DG Bank mobile app, connected to the same deployed database",
             "image_path": "assets/img/dg-app.png",
             "tools": "Pyqt5, Postgre SQL",
-            "url": ""
+            "url": "https://github.com/ahsanirfan961/Bank_Management_System_PyQt5",
+            "date": "July 2023"
         },
         {
-            "name": "Autonomous System Routing",
-            "description": "",
+            "title": "Autonomous System Routing",
+            "description": "it demonstrates the dynamic global routing behavior in a network consisting of multiple autonomous systems (AS). The nodes within each AS are connected randomly using CSMA channels, creating a dynamic network topology.",
             "image_path": "assets/img/ns3.png",
             "tools": "Ubuntu, NS-3, C++",
-            "url": ""
+            "url": "https://github.com/ahsanirfan961/Routing-in-Autonomous-Systems-NS3",
+            "date": "January 2024"
+        },
+        {
+            "title": "Image Processor",
+            "description": "a powerful application for resizing, inverting, and rotating images and applying filter's like Gabor's filter, Burkes' filter and Laplacian filter etc",
+            "image_path": "assets/img/image-processor.png",
+            "tools": "Python, PyQt5, Algorithms",
+            "url": "https://github.com/ahsanirfan961/Image-Processor-PyQt5",
+            "date": "January 2024"
         }
     ]
 }

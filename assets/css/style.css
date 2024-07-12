@@ -86,3 +86,12 @@ header {
   transform: scale(100%, 100%) translate(50%, 0%);
 }
 
+.contact-link {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.contact-link:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+}

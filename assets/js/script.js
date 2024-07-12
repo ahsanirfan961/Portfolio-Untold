@@ -92,6 +92,38 @@ function loadData() {
             experience_section.append(experienceElement);
         });
 
+        // Projects
+        projects_section = $('#project-section');
+        template = $('.project');
+        projects_section.empty();
+        data.projects.forEach(project => {
+            let projectElement = template.clone();
+            projectElement.find('.project-img').attr('src', project.image_path);
+            projectElement.find('.project-title').text(project.title);
+            projectElement.find('.project-description').text(project.description);
+            projectElement.find('.project-link').attr('href', project.url).attr('target', '_blank');
+            projectElement.find('.project-tools').text(project.tools);
+            projectElement.find('.project-date').text(project.date);
+            projects_section.append(projectElement);
+        });
+
+        // contact
+        $('#email').text(data.email);
+        $('#email').on('click', () => window.location.href = 'mailto:' + data.email);
+        $('#phone-1').text(data.mobile);
+        $('#phone-2').text(data.mobile_2);
+        mobile = data.mobile.replace('+', '').replace(/-/g, '');
+        mobile_2 = data.mobile_2.replace('+', '').replace(/-/g, '');
+        $('#phone-1').on('click', () => window.open(`tel:${mobile}`, '_blank'));
+        $('#phone-2').on('click', () => window.open(`tel:${mobile_2}`, '_blank'));
+        $('#whatsapp-btn').on('click', () =>{
+            window.open(`https://wa.me/${mobile}`, '_blank');
+        });
+        $('#linkedin-btn').on('click', () => window.open(data.linkedin, '_blank'));
+        $('#facebook-btn').on('click', () => window.open(data.facebook, '_blank'));
+        $('#instagram-btn').on('click', () => window.open(data.instagram, '_blank'));
+        $('#github-btn').on('click', () => window.open(data.github, '_blank'));
+
     }).catch(err => {
         console.error(err);
     });
