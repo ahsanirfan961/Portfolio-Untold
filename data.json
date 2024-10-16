@@ -169,7 +169,7 @@
         {
             "title": "Automated Number Plate Recognizer",
             "description": "a desktop application for scanning liscense plates from pictures and videos",
-            "image_path": "assets/img/anpr.jpg",
+            "image_path": "assets/img/anpr.png",
             "tools": "Yolov8(fine-tuned), OpenCV, Tesseract OCR, PyQt6",
             "url": "https://github.com/ahsanirfan961/Automated-Number-Plate-Detection---YOLOv8---TrOCR",
             "date": "August 2024"
