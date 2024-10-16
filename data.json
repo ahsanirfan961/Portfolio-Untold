@@ -1,7 +1,7 @@
 {
     "name": "Muhammad Ahsan",
     "position_statement": "Android & Flutter Developer",
-    "quote": "'Eight percent of succes is showing up'",
+    "quote": "'Engineering intelligent systems and shaping the future with cutting-edge AI solutions'",
     "front_page_description": "a passionate student, studying Software Enginnering from National University of Science & Technology, Pakistan<hr>With a diverse skill set in web and app development, 3D modeling, and game development. My projects reflect my dedication to creating innovative and user-friendly solutions<hr>I strive to push the boundaries of technology and deliver high-quality digital experiences",
     "mobile": "+92-349-6785199",
     "mobile_2": "+92-326-1785199",
@@ -14,21 +14,33 @@
     "achievements": [
         {
             "logo": "fa-solid fa-book",
-            "heading": "26 projects",
+            "heading": "9 projects",
             "sub_heading": "Total Projects"
         },
         {
             "logo": "fa-regular fa-user",
-            "heading": "9 months",
+            "heading": "1.5 years",
             "sub_heading": "Work Experience"
         },
         {
             "logo": "fa-solid fa-users",
-            "heading": "3 Volunteers",
+            "heading": "2 Volunteers",
             "sub_heading": "Total Volunteerships"
         }
     ],
     "skills": [
+        {
+            "name": "LLMs",
+            "percentage": "85"
+        },
+        {
+            "name": "Agentic Workflows",
+            "percentage": "70"
+        },
+        {
+            "name": "LangChain, LangGraph",
+            "percentage": "85"
+        },
         {
             "name": "Flutter",
             "percentage": "70"
@@ -55,6 +67,15 @@
         }
     ],
     "experience": [
+        {
+            "logo_path": "assets/img/upwork.png",
+            "from": "August 2024",
+            "to": "present",
+            "organization": "Upwork",
+            "position": "AI Engineer Freelancer",
+            "mode": "Remote",
+            "location": "Islamabad, Pakistan"
+        },
         {
             "logo_path": "assets/img/dg-cement.png",
             "from": "June 2023",
@@ -146,12 +167,28 @@
     ],
     "projects": [
         {
+            "title": "Automated Number Plate Recognizer",
+            "description": "a desktop application for scanning liscense plates from pictures and videos",
+            "image_path": "assets/img/anpr.jpg",
+            "tools": "Yolov8(fine-tuned), OpenCV, Tesseract OCR, PyQt6",
+            "url": "https://github.com/ahsanirfan961/Automated-Number-Plate-Detection---YOLOv8---TrOCR",
+            "date": "August 2024"
+        },
+        {
             "title": "Metro Route Finder Islamabad",
             "description": "a state of the art Metro Bus Route Navigator application for Islamabad, Pakistan",
             "image_path": "assets/img/metro-app.jpg",
             "tools": "Flutter, Google Maps API",
-            "url": "",
-            "date": "March 2024"
+            "url": "https://github.com/ahsanirfan961/Metro-Route-Finder_ISB-RWP",
+            "date": "June 2024"
+        },
+        {
+            "title": "Vele Piggies",
+            "description": "an android video game made during the Mindstorm Studios Game Jam 2024",
+            "image_path": "assets/img/vele-piggies.png",
+            "tools": "Unity, C#",
+            "url": "https://github.com/kakanics/velePigies",
+            "date": "July 2024"
         },
         {
             "title": "DG Bank Mobile App",
@@ -159,7 +196,7 @@
             "image_path": "assets/img/bms-app.jpg",
             "tools": "Android SDK, Java, Postgre SQL",
             "url": "https://github.com/ahsanirfan961/Bank-Management-System-Android",
-            "date": "Novermber 2023"
+            "date": "November 2023"
         },
         {
             "title": "Brave Dave",
