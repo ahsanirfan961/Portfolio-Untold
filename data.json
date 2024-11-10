@@ -14,7 +14,7 @@
     "achievements": [
         {
             "logo": "fa-solid fa-book",
-            "heading": "9 projects",
+            "heading": "13 projects",
             "sub_heading": "Total Projects"
         },
         {
@@ -51,7 +51,7 @@
         },
         {
             "name": "Web Development",
-            "percentage": "40"
+            "percentage": "82"
         },
         {
             "name": "C/C++, Python Coding",
@@ -63,18 +63,18 @@
         },
         {
             "name": "Communication Skills",
-            "percentage": "80"
+            "percentage": "85"
         }
     ],
     "experience": [
         {
-            "logo_path": "assets/img/upwork.png",
+            "logo_path": "assets/img/fiverr.png",
             "from": "August 2024",
             "to": "present",
-            "organization": "Upwork",
+            "organization": "Fiverr",
             "position": "AI Engineer Freelancer",
             "mode": "Remote",
-            "location": "Islamabad, Pakistan"
+            "location": "San Francisco, USA"
         },
         {
             "logo_path": "assets/img/dg-cement.png",
@@ -134,6 +134,16 @@
         }
     ],
     "services": [
+        {
+            "logo_path": "assets/img/llm.png",
+            "title": "LLM Applications",
+            "description": "I have experience in developing LLM applications using Python, including LangChain, LangGraph, and Agentic Workflows. I specialize in prompting techniques, implementing embeddings, and integrating LLMs for real-world applications"
+        },
+        {
+            "logo_path": "assets/img/ai.png",
+            "title": "AI Projects",
+            "description": "I have experience in developing AI projects using Python, including machine learning, deep learning, and computer vision. I can create custom models, optimize performance, and deliver high-quality solutions for a variety of applications"
+        },
         {
             "logo_path": "assets/img/flutter-logo.png",
             "title": "Flutter Development",
